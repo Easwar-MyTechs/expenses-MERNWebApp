@@ -6,7 +6,9 @@ Clone the repository. HTTPS: git clone https://github.com/Easwar-MyTechs/expense
 cd expenses-MERNWebApp
 
 Install node modules Node API: 
+
 cd expenses_men_rest_api
+
 npm install
 
 npm run start
@@ -14,7 +16,9 @@ npm run start
 Go to localhost:3001/expenses
 
 Install node modules React App: 
+
 cd react_expenses_spa_webapp
+
 npm install
 
 npm run start
@@ -25,4 +29,5 @@ Optional
 Create Mongo DB expenses_mernapp:
 
 $ use expenses_mernapp
+
 $ db.createCollection('expenses')
